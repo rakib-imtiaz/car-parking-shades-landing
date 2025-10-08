@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Button } from './ui/button';
 import { Instagram } from 'lucide-react';
 
 const Hero: React.FC = () => {
