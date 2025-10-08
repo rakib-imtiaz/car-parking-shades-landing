@@ -13,10 +13,6 @@ const Hero: React.FC = () => {
     '/video/brand_video_3.mp4'
   ];
 
-  const openInstagram = () => {
-    window.open('https://www.instagram.com/mdnil.chan/', '_blank');
-  };
-
   useEffect(() => {
     const interval = setInterval(() => {
       setIsTransitioning(true);
@@ -90,13 +86,15 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex justify-center"
           >
-            <Button
-              onClick={openInstagram}
-              className="bg-transparent border-2 border-white text-white hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:border-transparent hover:text-white px-6 py-3 font-semibold transition-all duration-300"
+            <a
+              href="https://www.instagram.com/mdnil.chan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:border-transparent hover:text-white px-6 py-3 font-semibold transition-all duration-300 rounded-md"
             >
               <Instagram className="w-4 h-4 mr-2" />
               Contact us
-            </Button>
+            </a>
           </motion.div>
         </motion.div>
       </div>
