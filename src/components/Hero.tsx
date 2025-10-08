@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
   ];
 
   const openInstagram = () => {
-    window.open('https://www.instagram.com/sanatmuzalla', '_blank');
+    window.open('https://www.instagram.com/mdnil.chan/', '_blank');
   };
 
   useEffect(() => {

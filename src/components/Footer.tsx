@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://www.instagram.com/sanatmuzalla" 
+                href="https://www.instagram.com/mdnil.chan/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary-foreground/10 rounded-lg flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
